@@ -6,14 +6,15 @@ public class Whileloop{
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter number: ");
         int n = sc.nextInt();
-        while(i <= 10)
+        while(i <= n)
         {
-            
+            System.out.println(i+" ");
+            i++;
         }
-        
-        
-                System.out.println(" bye");
-                //break;
-                  
+    
      }
 }
+
+
+
+   
